@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-21T23:50:30 PDT" name="Suite" finished-at="2020-04-21T23:52:15 PDT" duration-ms="104962">
+    <groups>
+    </groups>
+    <test started-at="2020-04-21T23:50:30 PDT" name="practiceTest on April 21" finished-at="2020-04-21T23:52:15 PDT" duration-ms="104962">
+      <class name="LoginTest">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:LoginTest@5f683daf]" started-at="2020-04-21T23:50:31 PDT" name="setUpTest" finished-at="2020-04-21T23:50:49 PDT" duration-ms="18819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doLoginTest()[pri:3, instance:LoginTest@5f683daf]" started-at="2020-04-21T23:50:49 PDT" name="doLoginTest" finished-at="2020-04-21T23:52:12 PDT" duration-ms="82206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest@5f683daf]" started-at="2020-04-21T23:52:12 PDT" name="tearDown" finished-at="2020-04-21T23:52:15 PDT" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTest -->
+    </test> <!-- practiceTest on April 21 -->
+  </suite> <!-- Suite -->
+</testng-results>
