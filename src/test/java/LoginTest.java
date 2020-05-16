@@ -16,6 +16,8 @@ public class LoginTest extends BaseTest {
 		String title = page.getInstance(LoginPage.class).getLoginPageTitle();
 		System.err.println(title);
 		Assert.assertEquals(title, "HubSpot Login");
+		
+		//Example
 
 	}
 
